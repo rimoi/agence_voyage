@@ -1,0 +1,22 @@
+h2{color:blue;text-align:center; font-size:large}
+h3{ color:#C0C0C0;text-align:center;}
+.search {background-color: rgba(0,140,0,1); border: 1px solid black; }
+#nom, #envoie, #depart{border: 1px solid black; align-content: center;} 
+.nom,.envoie, .depart{text-align: center;}
+#ville_depart, #disponibilite, #num_voyageur {border: 1px solid black; align-content: center;} 
+.ville_depart,.disponibilite,.num_voyageur {text-align:center;}
+label:hover{
+	color:yellow;
+}
+/* effet sur le cursor une fois qu'il a passer dessus */
+select:hover, input:hover{
+	color:red;
+}
+
+.envoie1:hover{
+	/* color de font pour qu'il soit transparent */
+	background-color:rgba(0,0,255,0.6);
+}
+body {
+	background-color: red;
+}
